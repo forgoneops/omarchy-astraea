@@ -1,0 +1,37 @@
+# ASTRAEA SECTION 9 - Astraea Voss, The Last Wayfinder
+mode = "dark"
+
+accent = "#FFB62E"
+selection = "#1C2236"
+muted = "#6B6A78"
+
+background = "#070A12"
+dark_background = "#05070E"
+darker_background = "#03050A"
+lighter_background = "#111A2A"
+
+foreground = "#F4EBDD"
+dark_foreground = "#9A93A0"
+light_foreground = "#F8F0E4"
+bright_foreground = "#FFF8EE"
+
+red = "#FF4D5E"
+yellow = "#F2C14E"
+orange = "#DD8E35"
+green = "#3FD6A6"
+cyan = "#9BDCFF"
+blue = "#8A8ACD"
+magenta = "#B09CDF"
+brown = "#8A5A3A"
+
+bright_red = "#FF7A87"
+bright_yellow = "#FFD36A"
+bright_green = "#6AE8C0"
+bright_cyan = "#AEF8FF"
+bright_blue = "#A9AAF0"
+bright_magenta = "#C8AEFF"
+
+hyprland_active_border = "rgba(FFB62Eee) rgba(AEF8FFee) 45deg"
+hyprland_inactive_border = "rgba(1C2236aa)"
+active_border_color = "#FFB62E"
+active_tab_background = "#FFB62E"

@@ -1,0 +1,37 @@
+# ASTRAEA GOLD - Astraea Voss, The Last Wayfinder
+mode = "dark"
+
+accent = "#FFC400"
+selection = "#3A2216"
+muted = "#7A6B5E"
+
+background = "#0C0605"
+dark_background = "#080403"
+darker_background = "#050202"
+lighter_background = "#1C100C"
+
+foreground = "#F7EBCB"
+dark_foreground = "#A8987A"
+light_foreground = "#FBF2DA"
+bright_foreground = "#FFF8EA"
+
+red = "#BC5C4E"
+yellow = "#FFC400"
+orange = "#E8883A"
+green = "#9CB85A"
+cyan = "#7FC8B0"
+blue = "#5F79D0"
+magenta = "#D9A066"
+brown = "#7A4A2A"
+
+bright_red = "#EB7D6A"
+bright_yellow = "#FFD86A"
+bright_green = "#B8D47A"
+bright_cyan = "#A4DFCB"
+bright_blue = "#819AFF"
+bright_magenta = "#E8BC88"
+
+hyprland_active_border = "rgba(FFC400ee) rgba(EB7D6Aee) 45deg"
+hyprland_inactive_border = "rgba(3A2216aa)"
+active_border_color = "#FFC400"
+active_tab_background = "#FFC400"

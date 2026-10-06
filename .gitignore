@@ -1,0 +1,13 @@
+# generated / personal / heavy — rebuild with src/build_hud.py
+build/
+dist/
+overlay/data.json
+config/mode
+backups/
+archive/
+# art stays local (generate your own, see art/README.md)
+art/**/*.png
+art/**/*.jpg
+!art/README.md
+__pycache__/
+*.pyc

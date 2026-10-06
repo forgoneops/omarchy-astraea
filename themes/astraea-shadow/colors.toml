@@ -1,0 +1,37 @@
+# ASTRAEA SHADOW - Astraea Voss, The Last Wayfinder
+mode = "dark"
+
+accent = "#9E8CF0"
+selection = "#241C48"
+muted = "#6A6A8C"
+
+background = "#0A0A12"
+dark_background = "#05030B"
+darker_background = "#030208"
+lighter_background = "#120E24"
+
+foreground = "#E9E6F2"
+dark_foreground = "#8F8CAA"
+light_foreground = "#F1EEF8"
+bright_foreground = "#F8F6FF"
+
+red = "#C0708E"
+yellow = "#E6C666"
+orange = "#D68A5A"
+green = "#5CCFA0"
+cyan = "#94CBED"
+blue = "#7F92D0"
+magenta = "#A5A6DE"
+brown = "#6B4A5A"
+
+bright_red = "#D890AA"
+bright_yellow = "#F4D987"
+bright_green = "#85E8BE"
+bright_cyan = "#B3FEFF"
+bright_blue = "#9BAEE8"
+bright_magenta = "#BABAFF"
+
+hyprland_active_border = "rgba(A078FFee) rgba(9BE4FFee) 45deg"
+hyprland_inactive_border = "rgba(241C48aa)"
+active_border_color = "#9E8CF0"
+active_tab_background = "#9E8CF0"

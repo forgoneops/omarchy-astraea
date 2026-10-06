@@ -1,0 +1,218 @@
+{
+  "_help": "Edit wording and per-scene settings here, then run: python3 src/build_hud.py   (see WORKFLOW.md)",
+  "character": {
+    "name": "ASTRAEA",
+    "surname": "VOSS",
+    "callsign": "THE LAST WAYFINDER",
+    "rank": "S"
+  },
+  "text": {
+    "notice": "NOTICE  /  TITLE ACQUIRED",
+    "headline": "BELIEVE IN YOURSELF",
+    "subline": "THE ONLY THING THAT LIMITS YOU IS YOUR IMAGINATION",
+    "accent": "DON'T WORRY  //  TOGETHER WE CAN BUILD ANYTHING",
+    "tribute": "HERMES PROTOCOL  //  MESSENGER OF THE DIGITAL GODS"
+  },
+  "glitch": {
+    "protect_letters": [
+      "T"
+    ],
+    "dropped_cells": 3,
+    "stray_cells": 6,
+    "tear_bands": 4,
+    "macroblocks": 5
+  },
+  "themes": {
+    "section9": {
+      "folder": "astraea-section-9",
+      "accent": "#FFB62E",
+      "secondary": "#AEF8FF",
+      "grad_hi": "#FFE27A",
+      "grad_lo": "#C77F2A",
+      "name": "Astraea Section 9",
+      "renamed_from": "hermes-section9",
+      "type": {
+        "notice": "#00F0FF",
+        "headline": "#FFB000",
+        "subline": "#FFF1CC",
+        "accent": "#00F0FF",
+        "rank": "#8FD9FF",
+        "location": "#FFD400",
+        "kit": "#7DF3FF",
+        "surname": "#00F0FF",
+        "tribute": "#5FC8E8"
+      }
+    },
+    "gold": {
+      "folder": "astraea-gold",
+      "accent": "#FFC400",
+      "secondary": "#EB7D6A",
+      "grad_hi": "#FFE27A",
+      "grad_lo": "#C79000",
+      "name": "Astraea Gold",
+      "renamed_from": "hermes-gold",
+      "type": {
+        "notice": "#FF8570",
+        "headline": "#FFC800",
+        "subline": "#FFF0C2",
+        "accent": "#FF8570",
+        "rank": "#FFB38A",
+        "location": "#FFE14D",
+        "kit": "#FFD27A",
+        "surname": "#FF8570",
+        "tribute": "#E0A060"
+      }
+    },
+    "shadow": {
+      "folder": "astraea-shadow",
+      "accent": "#9E8CF0",
+      "secondary": "#9BE4FF",
+      "grad_hi": "#D2CCFF",
+      "grad_lo": "#6A58C8",
+      "name": "Astraea Shadow",
+      "renamed_from": "hermes-shadow",
+      "type": {
+        "notice": "#00E5FF",
+        "headline": "#B07CFF",
+        "subline": "#F0E6FF",
+        "accent": "#00E5FF",
+        "rank": "#B9A6FF",
+        "location": "#E0A8FF",
+        "kit": "#A8E8FF",
+        "surname": "#00E5FF",
+        "tribute": "#9A8AE0"
+      }
+    },
+    "postapo": {
+      "folder": "astraea-post-apo",
+      "accent": "#E8943A",
+      "secondary": "#8FA8E8",
+      "grad_hi": "#FFD08A",
+      "grad_lo": "#B8621A",
+      "name": "Astraea Post Apo",
+      "renamed_from": "hermes-postapo",
+      "type": {
+        "notice": "#8CC4FF",
+        "headline": "#FF8A00",
+        "subline": "#FFEBC2",
+        "accent": "#8CC4FF",
+        "rank": "#FFC27A",
+        "location": "#FFB800",
+        "kit": "#FFD9A0",
+        "surname": "#8CC4FF",
+        "tribute": "#D09860"
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "tag": "rooftop",
+      "theme": "section9",
+      "clear_width": 1250,
+      "shade": 0.6,
+      "location": "SECTOR 07  /  ROOFTOP  /  BLUE HOUR",
+      "kit": [
+        "SIDEARM ........ LOWERED",
+        "RADIO ........... OPEN CH.3",
+        "TOOL POUCH ...... 7/9"
+      ]
+    },
+    {
+      "id": 2,
+      "tag": "salt-basin",
+      "theme": "gold",
+      "clear_width": 1400,
+      "shade": 0.4,
+      "location": "SALT BASIN  /  SUNSET  /  +41 C",
+      "kit": [
+        "ENERGY SPEAR ... COLLAPSIBLE",
+        "SCAV GEAR ....... LOADED",
+        "WATER ........... 62%"
+      ]
+    },
+    {
+      "id": 3,
+      "tag": "subway",
+      "theme": "shadow",
+      "clear_width": 1150,
+      "shade": 0.64,
+      "location": "LINE 9  /  OVERGROWN SUBWAY  /  DAMP",
+      "kit": [
+        "CROSSBOW ....... COMPACT",
+        "RESPIRATOR ...... FILTER 78%",
+        "MED KIT ......... 2 CHARGES"
+      ]
+    },
+    {
+      "id": 4,
+      "tag": "garage",
+      "theme": "section9",
+      "clear_width": 1300,
+      "shade": 0.6,
+      "location": "GARAGE 3  /  UNDERGROUND  /  POWER OK",
+      "kit": [
+        "ARM SERVO ...... 3/5 NOMINAL",
+        "TORQUE .......... 82%",
+        "TOOLS ........... OUT"
+      ]
+    },
+    {
+      "id": 5,
+      "tag": "snow-highway",
+      "theme": "shadow",
+      "clear_width": 1600,
+      "shade": 0.58,
+      "location": "HIGHWAY 12  /  ELEVATED  /  -31 C",
+      "kit": [
+        "RIFLE ........... SLUNG",
+        "BINOCULARS ...... STOWED",
+        "INSULATION ...... OK"
+      ]
+    },
+    {
+      "id": 6,
+      "tag": "flooded-skiff",
+      "theme": "postapo",
+      "clear_width": 1600,
+      "shade": 0.66,
+      "location": "DROWNED DISTRICT  /  SKIFF  /  +4.2 M",
+      "kit": [
+        "HATCHET ......... SECURED",
+        "NAV DEVICE ...... LOCKED",
+        "SALVAGE ......... 11 ITEMS"
+      ]
+    },
+    {
+      "id": 7,
+      "tag": "overwatch",
+      "theme": "gold",
+      "clear_width": 1400,
+      "shade": 0.55,
+      "location": "OVERWATCH  /  RUINED ROOFTOP  /  WIND 6 M/S",
+      "kit": [
+        "RIFLE ........... CHAMBERED",
+        "SCOPE ........... 8X",
+        "BREATH .......... STEADY"
+      ],
+      "image": "legacy/upscaled/v1_gold.png"
+    },
+    {
+      "id": 8,
+      "tag": "night-rain",
+      "theme": "postapo",
+      "clear_width": 1350,
+      "shade": 0.62,
+      "location": "NEON RUINS  /  NIGHT RAIN  /  14 C",
+      "kit": [
+        "RIFLE ........... SLUNG",
+        "CAPE ............ TORN",
+        "CYBER ARM ....... ONLINE"
+      ],
+      "image": "legacy/upscaled/v3_postapo.png"
+    }
+  ],
+  "install": {
+    "_note": "strict mode: each theme gets exactly its configured scenes (one HUD wallpaper per image, no duplicates). Anything else in a theme is archived to archive/retired-wallpapers/<folder>/ (deduplicated), never deleted."
+  }
+}

@@ -1,0 +1,37 @@
+# ASTRAEA POST APO - Astraea Voss, The Last Wayfinder
+mode = "dark"
+
+accent = "#E8943A"
+selection = "#3A2E22"
+muted = "#7A746C"
+
+background = "#12100F"
+dark_background = "#0D0B0A"
+darker_background = "#080707"
+lighter_background = "#241E1A"
+
+foreground = "#F3E6C8"
+dark_foreground = "#A09478"
+light_foreground = "#F8EFD8"
+bright_foreground = "#FFF6E2"
+
+red = "#E0604E"
+yellow = "#E4BE81"
+orange = "#E8943A"
+green = "#8DB36A"
+cyan = "#6FC3D0"
+blue = "#7A8FC4"
+magenta = "#C8789A"
+brown = "#8A5230"
+
+bright_red = "#EAAB8B"
+bright_yellow = "#FDC95B"
+bright_green = "#A9CE86"
+bright_cyan = "#93D6E0"
+bright_blue = "#94A6DF"
+bright_magenta = "#DE9AB6"
+
+hyprland_active_border = "rgba(FF8A2Eee) rgba(8FA8E8ee) 45deg"
+hyprland_inactive_border = "rgba(3A2E22aa)"
+active_border_color = "#E8943A"
+active_tab_background = "#E8943A"
